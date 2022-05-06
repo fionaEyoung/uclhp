@@ -9,8 +9,9 @@ body {
 
 
 .main {
-  width: 50%;
+  width: 70%;
   margin: 0px auto;
+  margin-top: 100px;
 }
 
 /* .col {
@@ -23,6 +24,13 @@ body {
   margin:0 auto;
   border-radius:50%;
   object-fit:cover
+}
+
+/* Rounded border */
+hr.rounded {
+  border-top: 2px solid;
+  border-radius: 1px;
+  margin: 10% 25%;
 }
 
 i {
@@ -38,16 +46,20 @@ h1 {
 #links {
     font-family: 'Work Sans', sans-serif;
     font-size: 13pt;
-    text-align: right;
+    text-align: center;
     padding: 15px 0px;
     margin-bottom: 30px;
     width: 100%;
-    background: #eee;
+    /*background: #eee;*/
 }
 
 nav a {
     margin: 0px 10px;
     text-decoration: none;
+}
+
+nav a:visited {
+  color: inherit;
 }
 
 nav .selected {
