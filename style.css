@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text');
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    font-size: 11pt;
+    background: #ffffff;
+}
+
+
+.main {
+  width: 50%;
+  margin: 0px auto;
+}
+
+/* .col {
+  width: 45%;
+} */
+
+.portrait {
+  width:200px;
+  height:200px;
+  margin:0 auto;
+  border-radius:50%;
+  object-fit:cover
+}
+
+i {
+  font-style: italic;
+}
+
+h1 {
+    font-family: 'DM Serif Text', serif;
+    font-size: 15;
+    text-align: center;
+}
+
+#links {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 13pt;
+    text-align: right;
+    padding: 15px 0px;
+    margin-bottom: 30px;
+    width: 100%;
+    background: #eee;
+}
+
+nav a {
+    margin: 0px 10px;
+    text-decoration: none;
+}
+
+nav .selected {
+    background-color: #000000;
+    color: #ffffff;
+}
