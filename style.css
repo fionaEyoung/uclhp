@@ -4,14 +4,15 @@ body {
     font-family: 'Work Sans', sans-serif;
     font-weight: 300;
     font-size: 11pt;
-    background: #ffffff;
+    /* background: #ffffff; */
 }
 
 
 .main {
-  width: 70%;
-  margin: 0px auto;
+  max-width: 450px;
+  margin: auto;
   margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 /* .col {
@@ -43,6 +44,10 @@ h1 {
     text-align: center;
 }
 
+p {
+  text-align: left;
+}
+
 #links {
     font-family: 'Work Sans', sans-serif;
     font-size: 13pt;
@@ -51,6 +56,24 @@ h1 {
     margin-bottom: 30px;
     width: 100%;
     /*background: #eee;*/
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  -moz-column-count: 2;
+  -moz-column-gap: 20px;
+  -webkit-column-count: 2;
+  -webkit-column-gap: 20px;
+  column-count: 2;
+  column-gap: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #eda007;
 }
 
 nav a {
