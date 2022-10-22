@@ -9,7 +9,7 @@ body {
 
 
 .main {
-  max-width: 450px;
+  max-width: 500px;
   margin: auto;
   margin-top: 100px;
   margin-bottom: 100px;
@@ -29,9 +29,10 @@ body {
 
 /* Rounded border */
 hr.rounded {
-  border-top: 2px solid;
+  border: 1px solid;
   border-radius: 1px;
   margin: 10% 25%;
+  color: black;
 }
 
 i {
@@ -64,11 +65,13 @@ ul {
   padding: 0;
   text-align: left;
   -moz-column-count: 2;
-  -moz-column-gap: 20px;
+  -moz-column-gap: 10px;
   -webkit-column-count: 2;
-  -webkit-column-gap: 20px;
+  -webkit-column-gap: 10px;
   column-count: 2;
-  column-gap: 20px;
+  column-gap: 10px;
+  column-width: 200px;
+  font-size: inherit;
 }
 
 a {
@@ -88,4 +91,15 @@ nav a:visited {
 nav .selected {
     background-color: #000000;
     color: #ffffff;
+}
+
+@media screen and (max-width: 480px) {
+  .main {
+     margin: 20px;
+  }
+  ul {
+    -moz-column-count: 1;
+    -webkit-column-count: 1;
+    column-count: 1;
+  }
 }
