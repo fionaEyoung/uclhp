@@ -64,14 +64,16 @@ ul {
   margin: 0;
   padding: 0;
   text-align: left;
+  font-size: inherit;
   -moz-column-count: 2;
   -moz-column-gap: 10px;
+  -moz-column-width: 200px;
   -webkit-column-count: 2;
   -webkit-column-gap: 10px;
+  -webkit-column-width: 200px;
   column-count: 2;
   column-gap: 10px;
   column-width: 200px;
-  font-size: inherit;
 }
 
 a {
@@ -93,13 +95,15 @@ nav .selected {
     color: #ffffff;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 510px) {
   .main {
-     margin: 20px;
+     margin: auto21;
+     max-width: 90%;
   }
   ul {
     -moz-column-count: 1;
     -webkit-column-count: 1;
     column-count: 1;
+    column-width: 400px;
   }
 }
