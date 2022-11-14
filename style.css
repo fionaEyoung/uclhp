@@ -87,7 +87,11 @@ ul {
 
 a {
   text-decoration: none;
-  color: #eda007;
+  color: #666600;
+}
+
+a:hover {
+  color: #F19706;
 }
 
 nav a {
@@ -102,6 +106,19 @@ nav a:visited {
 nav .selected {
     background-color: #000000;
     color: #ffffff;
+}
+
+@media (prefers-color-scheme: dark) {
+  body, hr.rounded {
+    background: #2F3031;
+    color: #ffffff;
+  }
+  a  {
+    color: #F9BC43;
+  }
+  a:hover {
+    color: #666600;
+  }
 }
 
 /* @media screen and (max-width: 510px) {
